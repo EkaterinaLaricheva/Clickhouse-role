@@ -12,6 +12,7 @@ Role Variables
 --------------
 
 Default vars: clickhouse_version: "22.3.3.44"
+
 Vars: clickhouse_packages:
   - clickhouse-client
   - clickhouse-server
@@ -20,6 +21,7 @@ Vars: clickhouse_packages:
 Dependencies
 ------------
 Other used rollers:
+
 vector-role
 lighthouse-role
 
